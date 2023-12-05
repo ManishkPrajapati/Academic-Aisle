@@ -1,5 +1,5 @@
-create database EduOlx;
-use EduOlx;
+create database AcademicAisle;
+use AcademicAisle;
 
 drop table if exists User;
 drop table if exists Administrator;
