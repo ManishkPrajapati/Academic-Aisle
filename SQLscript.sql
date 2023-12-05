@@ -3,6 +3,7 @@ use EduOlx;
 
 drop table if exists User;
 drop table if exists Administrator;
+drop table if exists Vendor;
 drop table if exists Login;
 drop table if exists Message;
 drop table if exists Advertisement;
@@ -30,11 +31,20 @@ create table User(
 	FOREIGN KEY(Area_id) REFERENCES Area(id));
 
 create table Administrator(
-	Id int auto_increment PRIMARY KEY,
+    Id int auto_increment PRIMARY KEY,
     First_name varchar(10),
     Last_name varchar(10),
     Phone varchar(15),
     Email varchar(30));
+
+create table Vendor(
+	Id int auto_increment PRIMARY KEY,
+	Area_id int,
+	Name varchar(10),
+	Phone varchar(15),
+	Email varchar(30),
+	Password varchar(20),
+	FOREIGN KEY(Area_id) REFERENCES Area(id));
 
 create table Login(
 	user_name varchar(10),
@@ -51,7 +61,7 @@ create table Message(
     FOREIGN KEY(Receiver_id) REFERENCES User(id));
 
 create table Advertisement(
-	Id int PRIMARY KEY auto_increment,
+    Id int PRIMARY KEY auto_increment,
     Product_id int,
     User_id int,
     Verification_Status varchar(10),
@@ -62,7 +72,7 @@ create table Advertisement(
     FOREIGN KEY(User_id) REFERENCES User(id));
     
 create table Product(
-	Id int PRIMARY KEY auto_increment,
+    Id int PRIMARY KEY auto_increment,
     Category_id int,
     P_Name varchar(20),
     P_Description varchar(70),
@@ -72,7 +82,7 @@ create table Product(
     FOREIGN KEY(Category_id) REFERENCES Category(id));
     
 create table Area(
-	Id int PRIMARY KEY auto_increment,
+    Id int PRIMARY KEY auto_increment,
     Area varchar(10),
     City varchar(10),
     State varchar(10),
