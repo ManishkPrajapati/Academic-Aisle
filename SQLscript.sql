@@ -100,7 +100,6 @@ create table Hobbies(
 	Id int auto_increment,
     Category_Id int,
     Hobby_name varchar(10),
-    Category varchar(30),
     Description varchar(60),
     FOREIGN KEY(Category_id) REFERENCES Category(id));
     
