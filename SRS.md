@@ -1,14 +1,19 @@
 TITLE:
+
 Software Requirements Specification (SRS) for Academic Aisle Resale Online Marketplace
+
 Objective:
+
 This document outlines the software requirements for Academic Aisle, an online resale marketplace for educational products and services. The website will be accessible through a web browser. The website will allow users to create accounts, post advertisements for products and services, communicate with other users through messaging, and search for items based on various criteria.
 
 Scope:
+
 The scope of this project includes the development of the Academic Aisle online resale marketplace website, which will allow users to buy and sell educational products and services. The website will include features such as user registration, login, advertisement posting, messaging, search functionality, and payment processing. The website will also include administrative features such as user management, advertisement approval, and site maintenance.
 
 Functional Requirements:
 
 User Registration -
+
 - Users should be able to register using their email address or phone number.
 - Users should be required to provide a unique username and password during registration.
 - Users should be able to select their preferred language from a list of available languages.
@@ -24,12 +29,14 @@ User Registration -
 
 
 User Login - 
+
 - Users should be able to log in using their username or email address and password.
 - Users should be able to log in using their phone number and password (optional).
 - Users should be able to save their login credentials for future use (optional).
 - Users should be able to reset their password if they forget it (forgot password feature).
 
 Advertisement Posting -
+
 - Registered users should be able to post advertisements for educational products and services.
 - Advertisements should include a title, description, price, product/service category, area of residence, contact information, and product/service condition (new or used).
 - Advertisements should include at least one image or video (optional).
@@ -50,6 +57,7 @@ Advertisement Posting -
 
 
 Messaging System -
+
 - Registered users who are logged in can send messages to other registered users who are also logged in using the messaging system provided by Academic Aisle.
  - Messages can include text, images, videos, audio files, documents, or links (optional). 
 - Messages can include an attachment feature that allows users to attach files up to a certain size limit (optional).
@@ -63,23 +71,29 @@ Messaging System -
 Non Functional Requirements:
 
 Security:
+
 - The website should implement strong password policies for user accounts, requiring passwords with a minimum length of 8 characters, containing both uppercase and lowercase letters, numbers, and special characters such as !@#$%. Passwords should also be required to be changed every 90 days for added security against unauthorized access or account takeovers by hackers or cybercriminals using brute force attacks or password-guessing techniques.
 - The website should implement two-factor authentication (2FA) as an optional security feature for user accounts, requiring users to provide a second form of identification such as a one-time code sent via SMS or email in addition to their password at login time.
 
 Reliability:
+
 - The website should have an SSL certificate for secure data transmission between the user's browser and the server, protecting sensitive information such as passwords and credit card details from unauthorized access or theft by hackers or cybercriminals.
 - The website should implement regular backups of all data to prevent data loss in case of any unexpected events such as server crashes or cyber-attacks.
 
 Availability:
+
 Server availability 24*7.
 
 Accessability:
+
 Registered and Non-Registered User can access the website.
 
 Maintainability:
+
 The website should be easy to maintain and update, with clear documentation and support resources available. This will ensure that the website remains functional and effective over time, without requiring excessive resources or expertise.
 
 Scalability:
+
 The website should be scalable to sell other category products which can attract a large variety of customers and vendors who want to sell different products. This website can handle large user traffic.
 
 Portability:
