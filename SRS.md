@@ -7,6 +7,7 @@ Scope:
 The scope of this project includes the development of the Academic Aisle online resale marketplace website, which will allow users to buy and sell educational products and services. The website will include features such as user registration, login, advertisement posting, messaging, search functionality, and payment processing. The website will also include administrative features such as user management, advertisement approval, and site maintenance.
 
 Functional Requirements:
+
 User Registration -
 - Users should be able to register using their email address or phone number.
 - Users should be required to provide a unique username and password during registration.
@@ -18,14 +19,17 @@ User Registration -
 - Users should be able to select their preferred area of residence during registration.
 - Users should be required to confirm their email address or phone number during registration (verification).
 - Users should be able to edit their profile information after registration (optional).
+- Users should be able to Contact Us or submit inquiries or feedback.
+- Users should be able to clear their doubt FAQ section that answers common questions about the website's policies, procedures, and features.
 
-3.2 User Login - 
+
+User Login - 
 - Users should be able to log in using their username or email address and password.
 - Users should be able to log in using their phone number and password (optional).
 - Users should be able to save their login credentials for future use (optional).
 - Users should be able to reset their password if they forget it (forgot password feature).
 
-3.3 Advertisement Posting -
+Advertisement Posting -
 - Registered users should be able to post advertisements for educational products and services.
 - Advertisements should include a title, description, price, product/service category, area of residence, contact information, and product/service condition (new or used).
 - Advertisements should include at least one image or video (optional).
@@ -45,7 +49,7 @@ User Registration -
 - Advertisements should have a feature for buyers and sellers to communicate through messaging about the product/service being sold or purchased (optional). 
 
 
-3.4 Messaging System -
+Messaging System -
 - Registered users who are logged in can send messages to other registered users who are also logged in using the messaging system provided by Academic Aisle.
  - Messages can include text, images, videos, audio files, documents, or links (optional). 
 - Messages can include an attachment feature that allows users to attach files up to a certain size limit (optional).
@@ -78,5 +82,5 @@ Scalability:
 The website should be scalable to sell other category products which can attract a large variety of customers and vendors who want to sell different products. This website can handle large user traffic.
 
 Portability:
-Web Application System will provide a portable User Interface ( HTML, CSS, JS) through which users will be able to access online websites. The system can be deployed to a single server, multi-server, to any OS, Cloud (Azure or AWS or GCP).
+Web Application System will provide a portable User Interface ( HTML, CSS, JS, React) through which users will be able to access online websites. The system can be deployed to a single server, multi-server, to any OS, Cloud (Azure or AWS or GCP).
 
