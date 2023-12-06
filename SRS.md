@@ -24,7 +24,6 @@ User Registration -
 - Users should be able to log in using their phone number and password (optional).
 - Users should be able to save their login credentials for future use (optional).
 - Users should be able to reset their password if they forget it (forgot password feature).
-- Users should be automatically logged out after a certain period of inactivity (session timeout).
 
 3.3 Advertisement Posting -
 - Registered users should be able to post advertisements for educational products and services.
