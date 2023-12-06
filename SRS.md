@@ -64,6 +64,7 @@ Non Functional Requirements:
 
 Security:
 - The website should implement strong password policies for user accounts, requiring passwords with a minimum length of 8 characters, containing both uppercase and lowercase letters, numbers, and special characters such as !@#$%. Passwords should also be required to be changed every 90 days for added security against unauthorized access or account takeovers by hackers or cybercriminals using brute force attacks or password-guessing techniques.
+- The website should implement two-factor authentication (2FA) as an optional security feature for user accounts, requiring users to provide a second form of identification such as a one-time code sent via SMS or email in addition to their password at login time.
 
 Reliability:
 - The website should have an SSL certificate for secure data transmission between the user's browser and the server, protecting sensitive information such as passwords and credit card details from unauthorized access or theft by hackers or cybercriminals.
