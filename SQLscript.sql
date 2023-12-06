@@ -47,10 +47,12 @@ create table Vendor(
 	FOREIGN KEY(Area_id) REFERENCES Area(id));
 
 create table Login(
+    Id int,
 	user_name varchar(10),
     Password varchar(10),
     EmailId varchar(30),
-    Phone varchar(15));
+    Phone varchar(15))
+    FOREIGN KEY(Id) REFERENCES User(id);
     
 create table Message(
 	Sender_id int,
