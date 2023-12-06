@@ -58,11 +58,9 @@ User Registration -
 - Messages can include an ignore message sender feature that allows users to block messages from specific senders without deleting them from their inbox or sent items folder (optional). 
 
 Non Functional Requirements:
+
 Security:
 - The website should implement strong password policies for user accounts, requiring passwords with a minimum length of 8 characters, containing both uppercase and lowercase letters, numbers, and special characters such as !@#$%. Passwords should also be required to be changed every 90 days for added security against unauthorized access or account takeovers by hackers or cybercriminals using brute force attacks or password-guessing techniques.
-- The website should implement two-factor authentication (2FA) as an optional security feature for user accounts, requiring users to provide a second form of identification such as a one-time code sent via SMS or email in addition to their password at login time, adding an extra layer of protection against account takeovers by hackers or cybercriminals using phishing attacks or social engineering techniques such as password guessing or phishing emails asking users to reveal their passwords under pretenses such as fake login pages or emails claiming to be from legitimate organizations such as banks or eCommerce websites asking users to update their account information by clicking on a link in the email or entering their password on a fake login page hosted on a malicious server controlled by the attacker instead of the legitimate organization's server controlled by the legitimate organization itself (phishing).
-
-
 
 Reliability:
 - The website should have an SSL certificate for secure data transmission between the user's browser and the server, protecting sensitive information such as passwords and credit card details from unauthorized access or theft by hackers or cybercriminals.
@@ -70,6 +68,9 @@ Reliability:
 
 Availability:
 Server availability 24*7.
+
+Accessability:
+Registered and Non-Registered User can access the website.
 
 Maintainability:
 The website should be easy to maintain and update, with clear documentation and support resources available. This will ensure that the website remains functional and effective over time, without requiring excessive resources or expertise.
