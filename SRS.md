@@ -22,7 +22,7 @@ User Registration -
 - Users should be required to agree to the terms and conditions of the site during registration.
 - Users should be able to upload a profile picture during registration .
 - Users should be able to select their preferred area of residence during registration.
-- Users should be required to confirm their email address or phone number during registration (verification).
+- Users should be required to confirm their email address or phone number during registration.
 - Users should be able to edit their profile information after registration (optional).
 - Users should be able to Contact Us or submit inquiries or feedback.
 - Users should be able to clear their doubt FAQ section that answers common questions about the website's policies, procedures, and features.
