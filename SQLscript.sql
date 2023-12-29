@@ -3,7 +3,6 @@ use AcademicAisle;
 
 drop table if exists User;
 drop table if exists Administrator;
-drop table if exists Vendor;
 drop table if exists Login;
 drop table if exists Message;
 drop table if exists Advertisement;
@@ -37,14 +36,6 @@ create table Administrator(
     Phone varchar(15),
     Email varchar(30));
 
-create table Vendor(
-	Id int auto_increment PRIMARY KEY,
-	Area_id int,
-	Name varchar(10),
-	Phone varchar(15),
-	Email varchar(30),
-	Password varchar(20),
-	FOREIGN KEY(Area_id) REFERENCES Area(id));
 
 create table Login(
     Id int,
