@@ -1,0 +1,15 @@
+insert into service values('Hi Safe Care','Katraj,Pune','Best');
+insert into service values('RS Packers & Movers','Baner,Pune','Better');
+insert into service values('Astha Packers & Movers', 'Pimpri,Pune','Best');
+insert into service values('Siddhivinayak Packers & Movers','Chinchwad,Pune','Excellent');
+insert into service values('Shree Ganesh Packers & Movers','Nigdi,Pune','Excellent');
+insert into service values('Royal Packers','Kharadi,Pune','Best');
+insert into service values('Hari Om Packers & Movers','Baner,Pune','Better');
+insert into service values('Varuna Logistics and packers','Akurdi,Pune','Best');
+insert into service values('Yash Cargo And Packers','Balewadi,Pune','Better');
+insert into service values('Balaji Cargo And packer','Kharadi Pune','Excellent');
+insert into service values('Veer Packers And Movers','Kothrud,Pune','Better');
+insert into service values('Vishwashri Packers And Movers','Hinjewadi,Pune','Excellent');
+insert into service values('SWD Packers And Movers','Wakad,Pune','Best');
+insert into service values('Kaushik Logistics Packers And Movers','Baner,Pune','Best');
+insert into service values('ShivGanga Packers And Movers','Hadapsar,Pune','Excellent);
