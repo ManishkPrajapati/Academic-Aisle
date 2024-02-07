@@ -79,20 +79,21 @@ Reliability:
 
 Availability:
 
-Server availability 24*7.
+- Server availability 24*7.
 
 Accessability:
 
-Registered and Non-Registered User can access the website.
+- Registered and Non-Registered User can access the website.
 
 Maintainability:
 
-The website should be easy to maintain and update, with clear documentation and support resources available. This will ensure that the website remains functional and effective over time, without requiring excessive resources or expertise.
+- The website should be easy to maintain and update, with clear documentation and support resources available. This will ensure that the website remains functional and effective over time, without requiring excessive resources or expertise.
 
 Scalability:
 
-The website should be scalable to sell other category products which can attract a large variety of customers and vendors who want to sell different products. This website can handle large user traffic.
+- The website should be scalable to sell other category products which can attract a large variety of customers and vendors who want to sell different products. This website can handle large user traffic.
 
 Portability:
-Web Application System will provide a portable User Interface ( HTML, CSS, JS, React) through which users will be able to access online websites. The system can be deployed to a single server, multi-server, to any OS, Cloud (Azure or AWS or GCP).
+
+- Web Application System will provide a portable User Interface ( HTML, CSS, JS, React) through which users will be able to access online websites. The system can be deployed to a single server, multi-server, to any OS, Cloud (Azure or AWS or GCP).
 
