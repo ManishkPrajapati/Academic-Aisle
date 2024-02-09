@@ -1,18 +1,18 @@
-## TITLE: Academic Aisle
+# TITLE: Academic Aisle
 
 Software Requirements Specification (SRS) for Academic Aisle Resale Online Marketplace
 
-## Objective:
+# Objective:
 
 This document outlines the software requirements for Academic Aisle, an online resale marketplace for educational products and services. The website will be accessible through a web browser. The website will allow users to create accounts, post advertisements for products and services, communicate with other users through messaging, and search for items based on various criteria.
 
-## Scope:
+# Scope:
 
 The scope of this project includes the development of the Academic Aisle online resale marketplace website, which will allow users to buy and sell educational products and services. The website will include features such as user registration, login, advertisement posting, messaging, search functionality, and payment processing. The website will also include administrative features such as user management, advertisement approval, and site maintenance.
 
-## Functional Requirements:
+# Functional Requirements:
 
-# User Registration -
+## User Registration -
 
 - Users should be able to register using their email address or phone number.
 - Users should be required to provide a unique username and password during registration.
@@ -27,14 +27,14 @@ The scope of this project includes the development of the Academic Aisle online 
 - Users should be able to pay Vendor securely through payment portal.
 - Users should be able to clear their doubt FAQ section that answers common questions about the website's policies, procedures, and features.
 
-# User Login -
+## User Login -
 
 - Users should be able to log in using their username or email address and password.
 - Users should be able to log in using their phone number and password (optional).
 - Users should be able to save their login credentials for future use (optional).
 - Users should be able to reset their password if they forget it (forgot password feature).
 
-# Vendor - 
+## Vendor - 
 
 - Vendor should be able to register using their email address or phone number.
 - Vendor should be required to provide a unique username and password during registration.
@@ -45,7 +45,7 @@ The scope of this project includes the development of the Academic Aisle online 
 - Vendor should be able to recieve payment from buyer.
 - Vendor should have access to add/edit/delete products.
 
-# Administrator - 
+## Administrator - 
 
 - Administrator should be able to manage user accounts by suspending/deactivating users.
 - Administrator should be able manage category.
@@ -53,7 +53,7 @@ The scope of this project includes the development of the Academic Aisle online 
 - Administrator can activate/deactivate vendor accounts.
 - Administrator can register another admin.
 
-# Advertisement Posting -
+## Advertisement Posting -
 
 - Registered users should be able to post advertisements for educational products and services.
 - Advertisements should include a title, description, price, product/service category, area of residence, contact information, and product/service condition (new or used).
@@ -71,7 +71,7 @@ The scope of this project includes the development of the Academic Aisle online 
 - Advertisements should have a feature for sellers to respond to ratings and reviews from buyers.
 - Advertisements should have a feature for buyers and sellers to communicate through messaging about the product/service being sold or purchased.
 
-# Messaging System -
+## Messaging System -
 
 - Registered users can only chat to seller through message system .
 - Messages can include text, images, videos, audio files, documents, or links.
@@ -81,33 +81,33 @@ The scope of this project includes the development of the Academic Aisle online 
 - Messages can include a search message feature that allows users to search for messages based on keywords or message content.
 - Messages can include an archive message feature that allows users to archive messages they want to keep but do not want them cluttering up their inbox or sent items folder .
 
-## Non Functional Requirements:
+# Non Functional Requirements:
 
-# Security:
+## Security:
 
 - The website should implement strong password policies for user accounts, requiring passwords with a minimum length of 8 characters, containing both uppercase and lowercase letters, numbers, and special characters such as !@#$%. Passwords should also be required to be changed every 90 days for added security against unauthorized access or account takeovers by hackers or cybercriminals using brute force attacks or password-guessing techniques.
 - The website should implement two-factor authentication (2FA) as an optional security feature for user accounts, requiring users to provide a second form of identification such as a one-time code sent via SMS or email in addition to their password at login time.
 
-# Reliability:
+## Reliability:
 
 - The website should implement regular backups of all data to prevent data loss in case of any unexpected events such as server crashes or cyber-attacks.
 
-# Availability:
+## Availability:
 
 - Server availability all time .
 
-# Accessability:
+## Accessability:
 
 - Registered and Non-Registered User can access the website.
 
-# Maintainability:
+## Maintainability:
 
 - The website should be easy to maintain and update, with clear documentation and support resources available. This will ensure that the website remains functional and effective over time, without requiring excessive resources or expertise.
 
-# Scalability:
+## Scalability:
 
 - The website should be scalable to sell other category products which can attract a large variety of customers and vendors who want to sell different products. This website can handle large user traffic.
 
-# Portability:
+## Portability:
 
 - Web Application System will provide a portable User Interface ( HTML, CSS, JS, React) through which users will be able to access online websites. The system can be deployed to a single server, multi-server, to any OS, Cloud (Azure or AWS or GCP).
