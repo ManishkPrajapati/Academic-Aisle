@@ -12,7 +12,7 @@ The scope of this project includes the development of the Academic Aisle online 
 
 ## Functional Requirements:
 
-User Registration -
+# User Registration -
 
 - Users should be able to register using their email address or phone number.
 - Users should be required to provide a unique username and password during registration.
