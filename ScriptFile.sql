@@ -146,7 +146,7 @@ CREATE TABLE Service(
     Id int PRIMARY KEY AUTO_INCREMENT,
     Name varchar(10),
     Category_Id int,
-    Location varchar(20),
+    City varchar(20),
     Ratings INT,
     Reviews TEXT,
     FOREIGN KEY(Category_id) REFERENCES Category(Id)
