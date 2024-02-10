@@ -20,27 +20,27 @@ DROP TABLE IF EXISTS Electronics;
 
 CREATE TABLE Area(
     Id int PRIMARY KEY AUTO_INCREMENT,
-    Area varchar(10),
-    City varchar(10),
-    State varchar(10),
-    Country varchar(10)
+    Area varchar(50),
+    City varchar(50),
+    State varchar(50),
+    Country varchar(50)
 );
 
 CREATE TABLE Users(
     Id int AUTO_INCREMENT PRIMARY KEY,
     Area_id int,
-    First_name varchar(10),
-    Last_name varchar(10),
+    First_name varchar(50),
+    Last_name varchar(50),
     Phone varchar(15),
     Email varchar(30),
-    Password varchar(10),
+    Password varchar(50),
     FOREIGN KEY(Area_id) REFERENCES Area(Id)
 );
 
 CREATE TABLE Administrator(
     Id int AUTO_INCREMENT PRIMARY KEY,
-    First_name varchar(10),
-    Last_name varchar(10),
+    First_name varchar(50),
+    Last_name varchar(50),
     Phone varchar(15),
     Email varchar(30)
 );
@@ -48,18 +48,18 @@ CREATE TABLE Administrator(
 CREATE TABLE Vendor(
     Id int AUTO_INCREMENT PRIMARY KEY,
     Area_id int,
-    Name varchar(10),
+    Name varchar(250),
     Phone varchar(15),
     Email varchar(30),
-    Password varchar(20),
+    Password varchar(50),
     FOREIGN KEY(Area_id) REFERENCES Area(Id)
 );
 
 CREATE TABLE Login(
     Id int AUTO_INCREMENT PRIMARY KEY,
     User_id int,
-    User_name varchar(10),
-    Password varchar(10),
+    User_name varchar(50),
+    Password varchar(20),
     EmailId varchar(30),
     Phone varchar(15),
     FOREIGN KEY(User_id) REFERENCES Users(Id)
@@ -78,6 +78,7 @@ CREATE TABLE Message(
 CREATE TABLE Category(
     Id int PRIMARY KEY AUTO_INCREMENT,
     C_Name varchar(20)
+    C_Desc varchar(250)
 );
 
 CREATE TABLE Advertisement(
@@ -89,7 +90,7 @@ CREATE TABLE Advertisement(
     Adv_title varchar(40),
     Post_date DATE,
     Image text,
-    P_Description varchar(70),
+    P_Description varchar(250),
     Is_active varchar(10),
     P_Condition varchar(30),
     Price float,
@@ -107,7 +108,7 @@ CREATE TABLE Hobbies(
     Id int PRIMARY KEY AUTO_INCREMENT,
     Category_Id int,
     Hobby_name varchar(10),
-    Description varchar(60),
+    Description varchar(250),
     FOREIGN KEY(Category_id) REFERENCES Category(Id)
 );
 
@@ -116,7 +117,7 @@ CREATE TABLE Coaching_Institutes(
     Category_Id int,
     Location varchar(10),
     Phone varchar(15),
-    Description varchar(60),
+    Description varchar(250),
     FOREIGN KEY(Category_id) REFERENCES Category(Id)
 );
 
@@ -124,9 +125,9 @@ CREATE TABLE Academic_Equipments(
     Id int PRIMARY KEY AUTO_INCREMENT,
     Category_Id int,
     SC_id int,
-    Manufacturer varchar(10),
+    Manufacturer varchar(150),
     Year_of_Purchase DATE,
-    Conditions varchar(20),
+    Conditions varchar(250),
     FOREIGN KEY(SC_id) REFERENCES Sub_Category(Id),
     FOREIGN KEY(Category_id) REFERENCES Category(Id)
 );
@@ -135,16 +136,16 @@ CREATE TABLE Books(
     Id int PRIMARY KEY AUTO_INCREMENT,
     Category_Id int,
     SC_id int,
-    Author varchar(10),
+    Author varchar(150),
     Year_Of_Publication DATE,
-    Conditions varchar(20),
+    Conditions varchar(250),
     FOREIGN KEY(SC_id) REFERENCES Sub_Category(Id),
     FOREIGN KEY(Category_id) REFERENCES Category(Id)
 );
 
 CREATE TABLE Service(
     Id int PRIMARY KEY AUTO_INCREMENT,
-    Name varchar(10),
+    Name varchar(150),
     Category_Id int,
     City varchar(20),
     Ratings INT,
@@ -155,8 +156,8 @@ CREATE TABLE Service(
 CREATE TABLE Electronics(
     Id int PRIMARY KEY AUTO_INCREMENT,
     Category_Id int,
-    Manufacturer varchar(20),
+    Manufacturer varchar(200),
     Year_of_Purchase DATE,
-    Model_name varchar(10),
+    Model_name varchar(150),
     FOREIGN KEY(Category_id) REFERENCES Category(Id)
 );
