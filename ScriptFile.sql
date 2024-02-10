@@ -77,7 +77,7 @@ CREATE TABLE Message(
 
 CREATE TABLE Category(
     Id int PRIMARY KEY AUTO_INCREMENT,
-    C_Name varchar(20)
+    C_Name varchar(20),
     C_Desc varchar(250)
 );
 
@@ -101,7 +101,8 @@ CREATE TABLE Advertisement(
 
 CREATE TABLE Sub_Category(
     Id int PRIMARY KEY AUTO_INCREMENT,
-    SC_Name varchar(20)
+    SC_Name varchar(50),
+    SC_Desc varchar(250)
 );
 
 CREATE TABLE Hobbies(
