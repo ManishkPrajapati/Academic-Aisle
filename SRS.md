@@ -12,74 +12,45 @@ The scope of this project includes the development of the Academic Aisle online 
 
 # Functional Requirements:
 
-## User Registration -
+## User Registration and Login-
 
-- Users should be able to register using their email address or phone number.
-- Users should be required to provide a unique username and password during registration.
-- Users should be able to select their preferred language from a list of available languages.
+- Users should be able to register using their email address.
 - Users should be required to provide their full name, phone number, and email address during registration.
-- Users should be able to specify their preferred educational qualification level during registration.
-- Users should be required to agree to the terms and conditions of the site during registration.
-- Users should be able to select their preferred area of residence during registration.
+- Users should be able to select their preferred Area , City and State during registration.
 - Users should be required to confirm their email address or phone number during registration.
-- Users should be able to edit their profile information after registration (optional).
+- Users should be able to edit their profile information after registration.
 - Users should be able to Contact Us or submit inquiries or feedback.
-- Users should be able to pay Vendor securely through payment portal.
 - Users should be able to clear their doubt FAQ section that answers common questions about the website's policies, procedures, and features.
+- Users should be able to log in using their email address and password.
 
-## User Login -
-
-- Users should be able to log in using their username or email address and password.
-- Users should be able to log in using their phone number and password (optional).
-- Users should be able to save their login credentials for future use (optional).
-- Users should be able to reset their password if they forget it (forgot password feature).
-
-## Vendor - 
-
-- Vendor should be able to register using their email address or phone number.
-- Vendor should be required to provide a unique username and password during registration.
-- Vendor should be able to select their preferred language from a list of available languages.
-- Vendor should be required to provide their full name, phone number, and email address during registration.
-- Vendor should be required to confirm their email address or phone number during registration.
-- Vendor should be able to edit their profile information after registration (optional).
-- Vendor should be able to recieve payment from buyer.
-- Vendor should have access to add/edit/delete products.
 
 ## Administrator - 
 
 - Administrator should be able to manage user accounts by suspending/deactivating users.
 - Administrator should be able manage category.
-- Administrator would be able to  view all registered users, vendors and products.
-- Administrator can activate/deactivate vendor accounts.
-- Administrator can register another admin.
+- Administrator should be able manage sub-category.
+- Administrator should be able manage Advertisment.
+- Administrator should be able manage Products.
+- Administrator would be able to  view all registered users and products.
+- Administrator would be able able to see reports.
 
 ## Advertisement Posting -
 
 - Registered users should be able to post advertisements for educational products and services.
-- Advertisements should include a title, description, price, product/service category, area of residence, contact information, and product/service condition (new or used).
-- Advertisements should include at least one image or video (optional).
-- Advertisements should include a verification status (pending or approved) until they are approved by an administrator.
-- Advertisements should have an active status until they are sold or removed by the seller.
+- Advertisements should include a title, description, price, product/service category, area, contact information.
+- Advertisements should include at least one image and max 3 images.
 - Advertisements should have a searchable status until they are sold or removed by the seller.
-- Advertisements should have a feature for buyers to save advertisements for future reference.
-- Advertisements should have a feature for sellers to edit their advertisements after posting.
-- Advertisements should have a feature for sellers to delete their advertisements at any time.
-- Advertisements should have a feature for buyers to contact sellers through messaging after viewing an advertisement.
-- Advertisements should have a feature for sellers to track the views and clicks on their advertisements.
-- Advertisements should have a feature for sellers to track the sales and ratings of their products/services .
-- Advertisements should have a feature for buyers to rate and review the products/services they receive from sellers.
-- Advertisements should have a feature for sellers to respond to ratings and reviews from buyers.
-- Advertisements should have a feature for buyers and sellers to communicate through messaging about the product/service being sold or purchased.
+- Advertisements can be saved in wishlist for future reference.
+- Advertisements have a feature for sellers to edit their advertisements after posting.
+- Advertisements have a feature for sellers to delete their advertisements at any time.
+- Advertisements have a feature for buyers to contact sellers after viewing an advertisement.
+- Advertisements should have a feature for buyers and sellers to communicate about the product/service being sold or purchased.
 
-## Messaging System -
+## Communication System -
 
-- Registered users can only chat to seller through message system .
-- Messages can include text, images, videos, audio files, documents, or links.
-- Messages can include an emoji feature that allows users to add emojis while sending messages.
-- Messages can include a read receipt feature that allows users to see whether the recipient has read the message or not.
-- Messages can include a delete message feature that allows users to delete messages they have sent or received from their inbox or sent items folder .
-- Messages can include a search message feature that allows users to search for messages based on keywords or message content.
-- Messages can include an archive message feature that allows users to archive messages they want to keep but do not want them cluttering up their inbox or sent items folder .
+- Only registered users can connect to seller.
+- Seller will be sent an email of the interested Users.
+- Seller will then be able to connect to intrested User with the details provided in the email
 
 # Non Functional Requirements:
 
