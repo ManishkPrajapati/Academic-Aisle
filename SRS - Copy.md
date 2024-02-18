@@ -8,7 +8,7 @@ This document outlines the software requirements for Academic Aisle, an online r
 
 Scope:
 
-The scope of this project includes the development of the Academic Aisle online resale marketplace website, which will allow users to buy and sell educational products and services. The website will include features such as user registration, login, advertisement posting, messaging, search functionality. The website will also include administrative features such as user management, advertisement approval, and site maintenance.
+The scope of this project includes the development of the Academic Aisle online sale and resale marketplace website, which will allow users to buy and sell educational products and services. The website will include features such as user registration, login, advertisement posting, messaging.The website will also include administrative features such as user management
 
 Functional Requirements:
 
