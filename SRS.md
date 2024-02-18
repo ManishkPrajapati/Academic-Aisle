@@ -29,8 +29,7 @@ The scope of this project includes the development of the Academic Aisle online 
 - Administrator should be able to manage user accounts by suspending/deactivating users.
 - Administrator should be able manage category.
 - Administrator should be able manage sub-category.
-- Administrator should be able manage Advertisment.
-- Administrator should be able manage Products.
+- Administrator should be able manage Advertisments.
 - Administrator would be able to  view all registered users and products.
 - Administrator would be able able to see reports.
 
