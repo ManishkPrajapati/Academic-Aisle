@@ -1,4 +1,4 @@
-# TITLE: Academic Aisle
+# Academic Aisle
 
 Software Requirements Specification (SRS) for Academic Aisle Resale Online Marketplace
 
