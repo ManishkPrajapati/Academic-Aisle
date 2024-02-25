@@ -1,0 +1,5 @@
+package com.woodworks.project.controller;
+
+public class WishListController {
+
+}

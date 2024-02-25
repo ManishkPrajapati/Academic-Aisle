@@ -1,0 +1,11 @@
+package com.woodworks.project.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.woodworks.project.entities.OrderDetails;
+
+public interface WishListRepository extends JpaRepository<OrderDetails, Integer>{
+	
+	
+	
+}

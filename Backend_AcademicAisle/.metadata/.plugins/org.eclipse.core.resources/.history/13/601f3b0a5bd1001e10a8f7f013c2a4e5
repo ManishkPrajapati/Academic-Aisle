@@ -1,0 +1,14 @@
+package com.woodworks.project.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.woodworks.project.entities.OrderDetails;
+
+public interface WishListRepository extends JpaRepository<OrderDetails, Integer>{
+
+	@Query("insert into orderdetails values()")
+	OrderDetails addToWishlist(int customerId, int productId);
+	
+	
+	
+}

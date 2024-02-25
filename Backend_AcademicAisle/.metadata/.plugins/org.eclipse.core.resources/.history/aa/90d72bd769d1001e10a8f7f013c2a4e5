@@ -1,0 +1,13 @@
+package com.woodworks.project.service;
+
+import com.woodworks.project.entities.OrderDetails;
+
+public interface WishlistService {
+
+	
+
+	OrderDetails addWishList(int customerId, int productId);
+
+	void deleteById(int id);
+	
+}
