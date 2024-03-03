@@ -1,5 +1,0 @@
-package com.woodworks.project.service;
-
-public interface WishlistService {
-
-}

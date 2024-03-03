@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.final.project</groupId>
-	<artifactId>FinalProjectWoodworks</artifactId>
+	<artifactId>FinalProjectAcademicaisle</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>FinalProjectWoodworks</name>
-	<description>Woodworks Backend</description>
+	<name>FinalProjectAcademicaisle</name>
+	<description>Academicaisle Backend</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -67,8 +67,7 @@
 			<groupId>org.springframework.restdocs</groupId>
 			<artifactId>spring-restdocs-mockmvc</artifactId>
 			<scope>test</scope>
-		</dependency>
-		
+		</dependency>	
 		
 	</dependencies>
 

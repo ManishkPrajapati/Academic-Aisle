@@ -1,5 +1,0 @@
-package com.woodworks.project.repository;
-
-public interface WishListRepository {
-
-}
