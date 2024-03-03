@@ -41,14 +41,13 @@ const AdminProducts = () => {
     );
     if (response) {
       console.log(id);
-      // axios.delete("http://localhost:8080/api/customers/" + id)
-      //     .then(resp => {
-      //         axios.get("http://localhost:8080/api/customers" + id)
-      //             .then(resp => {
-      //                 //console.log(resp.data.data)
-      //                 setCustomers(resp.data.data)
-      //             })
-      //     })
+      axios.delete("http://localhost:8080/api/sellers/" + id)
+          .then(resp => {
+              axios.get("http://localhost:8080/api/sellers" + id)
+                  .then(resp => {
+                  
+                  })
+          })
     }
   };
 
